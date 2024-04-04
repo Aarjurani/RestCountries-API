@@ -86,7 +86,7 @@ input{
 
 .country-card img{
     width:100% ;
-    height: 125px;
+    height: 100%;
     margin: 0%;
     padding: 0%;
     object-fit: cover;

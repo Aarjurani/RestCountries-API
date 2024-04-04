@@ -1,6 +1,6 @@
 let cityName = new URLSearchParams(window.location.search).get("name");
-let flag = document.querySelector(".country-card img");
-let nameh2 = document.querySelector(".country-card h2");
+let flag = document.querySelector(".img img");
+let nameh2 = document.querySelector(" .h2");
 let nativeName = document.querySelector(".native-name");
 let population = document.querySelector(".popualtion");
 let region = document.querySelector(".Region");
