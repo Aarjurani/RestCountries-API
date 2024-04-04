@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h2>Where is the World !</h2>
+        <p><i onclick="modeChange()" class="fa-solid fa-moon"></i> &nbsp;<b> Dark Mode</b></p>
+      </div>
+    </header>
+    <main>
+      <div class="search-filter-container">
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input  placeholder="search a country" type="text">
+        </div>
+        <select class="filter-by-region">
+          <option value ="africa">africa</option>
+          <option value="America">america</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">europe</option>
+        </select>
+       </div>
+      <div class="countries-container" id="countries-container">
+        <a href="#" class="country-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+            alt="flag"
+          />
+          <div class="card-text">
+            <h3 class="card-title">&nbsp;Taliban</h3>
+            <p><b>Population : </b>&nbsp;81,30,01</p>
+            <p><b>Region :</b>&nbsp;Europe</p>
+            <p><b>Capital :</b>&nbsp;Berlin</p>
+          </div>
+        </a>
+          
+    
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
